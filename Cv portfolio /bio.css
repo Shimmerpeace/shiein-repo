@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url("/storage/emulated/0/Download/880279a6-921a-4f68-921a-11c70df162af.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul.menu {
+  
+  list-style-type: none;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a:link,
+.menu a:visited {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.menu a:hover,
+.menu a:active {
+  background-color: cadetblue;
+  color: red;
+}
+
+header {
+  background-color: aliceblue;
+  text-align: center;
+  margin: 100px;
+  width: 100%;
+  padding: 0;
+}
